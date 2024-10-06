@@ -41,13 +41,15 @@ header {
 .text-box {
     position: absolute;
     bottom: 20%;
-    left: 10%;
+    right: 10%;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
     max-width: 400px;
     animation: fadeInUp 1.5s;
+    direction: rtl; /* Added for right-to-left text */
+    text-align: right; /* Align the text to the right */
 }
 
 .text-box h1 {
@@ -125,6 +127,7 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
+    direction: rtl; /* Added for right-to-left text */
 }
 
 .contact ul {
@@ -135,6 +138,7 @@ header {
 
 .contact ul li {
     margin: 10px 0;
+    direction: rtl; /* Added for right-to-left text */
 }
 
 .socials {
@@ -162,4 +166,8 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.description {
+    display: none;
 }
