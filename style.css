@@ -10,19 +10,26 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    margin: 0; /* Ensure body has no margin */
+    padding: 0; /* Ensure no extra padding */
 }
 
 /* Header & Slideshow Styling */
 header {
     position: relative;
-    height: 100vh;
+    height: 100vh; /* Full screen height */
     overflow: hidden;
+    top: 0; /* Ensure header starts at the very top */
+    left: 0;
+    right: 0;
 }
 
 .slideshow-container {
     position: relative;
     max-width: 100%;
     height: 100%;
+    padding: 0; /* Ensure no extra padding */
+    margin: 0; /* Ensure no extra margin */
 }
 
 .mySlides {
@@ -35,26 +42,21 @@ header {
 .mySlides img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover; /* Ensure the image covers the full container */
 }
-
-.mySlides {
-    background-color: #000; /* Or any other color that fits your design */
-}
-
 
 .text-box {
     position: absolute;
-    top: 0%;
-    right: 5%;
+    top: 0%; /* Adjust if needed to start from top */
+    right: 0%;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
     max-width: 400px;
     animation: fadeInDown 1.5s;
-    direction: rtl; /* Added for right-to-left text */
-    text-align: right; /* Align the text to the right */
+    direction: rtl; /* For right-to-left text */
+    text-align: right; /* Align text to the right */
 }
 
 .text-box h1 {
