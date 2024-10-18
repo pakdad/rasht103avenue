@@ -47,8 +47,8 @@ header {
 
 .text-box {
     position: absolute;
-    top: 0%; /* Adjust if needed to start from top */
-    right: 0%;
+    top: 1%; /* Adjust if needed to start from top */
+    right: 1%;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
