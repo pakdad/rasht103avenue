@@ -238,3 +238,37 @@ footer p {
         padding: 10px;
     }
 }
+
+/* Styling for links */
+a {
+    color: #fff; /* Change this to your preferred color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Optional: Add an underline on hover */
+    color: #ccc; /* Optional: Hover color */
+}
+
+/* To specifically target links inside .socials */
+.socials a {
+    color: #fff; /* White text color for social links */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+    color: #ccc; /* Light gray color on hover */
+}
+
+/* For contact info links */
+.contact-info a {
+    color: inherit; /* Inherits the color of the parent element */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
