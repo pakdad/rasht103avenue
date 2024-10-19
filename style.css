@@ -319,7 +319,7 @@ a:hover {
 
 /* Styling for hyperlinks (matching contact info styles) */
 .slide7-text-box a {
-    font-size: 2.5rem; /* Increase font size for the phone number and email */
+    font-size: 2rem; /* Increase font size for the phone number and email */
     font-weight: bold;
     color: inherit; /* Use inherited color, same as contact info links */
     text-decoration: none; /* Remove underline for links */
@@ -339,6 +339,6 @@ a:hover {
     }
 
     .slide7-text-box a {
-        font-size: 2rem; /* Slightly reduce font size on smaller screens */
+        font-size: 1.5rem; /* Slightly reduce font size on smaller screens */
     }
 }
