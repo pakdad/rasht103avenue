@@ -238,7 +238,7 @@ footer p {
 
 @media only screen and (max-width: 768px) {
     header {
-        height: 90vh; /* 70% of the screen height */
+        height: 100vh; /* 70% of the screen height */
     }
 
     .slideshow-container {
