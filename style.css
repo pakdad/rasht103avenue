@@ -264,3 +264,9 @@ footer p {
     }
 }
 
+    .contact-info a {
+        color: inherit; /* Inherit the text color from the parent */
+        text-decoration: none; /* Remove the underline */
+        font-family: inherit; /* Inherit the font from the parent */
+        font-size: inherit; /* Inherit the font size from the parent */
+    }
