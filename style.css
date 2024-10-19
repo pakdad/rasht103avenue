@@ -60,7 +60,7 @@ header {
 }
 
 .text-box h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
@@ -235,3 +235,32 @@ footer p {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 100vh; /* Full screen height */
+    }
+
+    .slideshow-container {
+        height: 100%; /* Ensure the container takes up full height */
+    }
+
+    .mySlides img {
+        object-fit: cover; /* Ensure the image covers the container */
+        width: 100%;
+        height: 100vh; /* Full viewport height */
+    }
+
+    .text-box {
+        top: 5%; /* Adjust position for smaller screens */
+        right: 5%;
+        padding: 10px; /* Reduce padding for smaller screens */
+        max-width: 90%; /* Adjust text-box width */
+    }
+
+    .prev, .next {
+        font-size: 14px; /* Reduce the size of navigation arrows */
+        padding: 10px;
+    }
+}
+
