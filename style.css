@@ -218,12 +218,12 @@ footer p {
 /* Responsive Styles */
 @media only screen and (max-width: 768px) {
     header {
-        height: 100vh;
+        height: 90vh;
     }
 
     .mySlides img {
         object-fit: cover;
-        height: 100vh;
+        height: 90vh;
     }
 
     .text-box {
