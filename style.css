@@ -293,6 +293,11 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Remove animation for slide 7 specifically */
+.no-animation {
+    animation: none;
+}
+
 /* Specific styles for Slide 7 */
 .slide7-text-box {
     top: 50%; /* Center vertically */
@@ -301,31 +306,29 @@ a:hover {
     background: rgba(0, 0, 0, 0.7); /* Darker background for better visibility */
     text-align: center; /* Center-align all text */
     padding: 40px;
-    max-width: 90%; /* Make sure the text box fits well within smaller screens */
+    max-width: 90%; /* Ensure the box fits smaller screens */
     width: auto;
 }
 
+/* Styling for paragraph text */
 .slide7-text-box p {
     margin: 10px 0; /* Add some spacing between each line */
     font-size: 1.8rem; /* Base font size for text */
     color: #fff; /* White text for visibility */
 }
 
+/* Styling for hyperlinks (matching contact info styles) */
 .slide7-text-box a {
     font-size: 2.5rem; /* Increase font size for the phone number and email */
     font-weight: bold;
-    color: #FFD700; /* Gold color for standout links */
+    color: inherit; /* Use inherited color, same as contact info links */
     text-decoration: none; /* Remove underline for links */
-    word-wrap: break-word; /* Ensure long text (email) breaks properly on small screens */
+    word-wrap: break-word; /* Ensure long text (email) breaks properly */
 }
 
 .slide7-text-box a:hover {
-    color: #FF8C00; /* Change color on hover for visibility */
-}
-
-.slide7-text-box a:active, 
-.slide7-text-box a:focus {
-    outline: none;
+    text-decoration: underline; /* Add underline on hover */
+    color: #ccc; /* Match the contact info hover color */
 }
 
 /* Ensure that slide 7 content is responsive and fits smaller screens */
