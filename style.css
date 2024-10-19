@@ -263,8 +263,7 @@ footer p {
         padding: 10px;
     }
 }
-
-    .contact-info a {
+.contact-info a {
         color: inherit; /* Inherit the text color from the parent */
         text-decoration: none; /* Remove the underline */
         font-family: inherit; /* Inherit the font from the parent */
