@@ -306,7 +306,7 @@ a:hover {
     background: rgba(0, 0, 0, 0.7); /* Darker background for better visibility */
     text-align: center; /* Center-align all text */
     padding: 10px;
-    max-width: 90%; /* Ensure the box fits smaller screens */
+    max-width: 100%; /* Ensure the box fits smaller screens */
     width: auto;
 }
 
