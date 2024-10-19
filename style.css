@@ -276,30 +276,45 @@ a:hover {
 .slide7-text-box {
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust the position to be exactly in the center */
-    background: rgba(0, 0, 0, 0.7); /* Slightly darker background for better visibility */
-    text-align: center; /* Center-align the text */
-    max-width: none; /* Remove the width limit */
-    width: auto;
+    transform: translate(-50%, -50%); /* Perfectly center the box */
+    background: rgba(0, 0, 0, 0.7); /* Darker background for better visibility */
+    text-align: center; /* Center-align all text */
     padding: 40px;
-}
-
-.slide7-text-box a {
-    font-size: 2rem; /* Increase the font size for the links */
-    color: #FFD700; /* You can choose a standout color like gold */
-    text-decoration: underline;
-}
-
-.slide7-text-box a:hover {
-    color: #FF8C00; /* Change color on hover */
+    max-width: 90%; /* Make sure the text box fits well within smaller screens */
+    width: auto;
 }
 
 .slide7-text-box p {
-    font-size: 2rem; /* Make the text bigger */
-    font-weight: bold;
+    margin: 10px 0; /* Add some spacing between each line */
+    font-size: 1.8rem; /* Base font size for text */
+    color: #fff; /* White text for visibility */
 }
 
-.slide7-text-box h1 {
-    font-size: 2.5rem; /* Make the text bigger for h1 */
-    margin-bottom: 20px;
+.slide7-text-box a {
+    font-size: 2.5rem; /* Increase font size for the phone number and email */
+    font-weight: bold;
+    color: #FFD700; /* Gold color for standout links */
+    text-decoration: none; /* Remove underline for links */
+    word-wrap: break-word; /* Ensure long text (email) breaks properly on small screens */
+}
+
+.slide7-text-box a:hover {
+    color: #FF8C00; /* Change color on hover for visibility */
+}
+
+.slide7-text-box a:active, 
+.slide7-text-box a:focus {
+    outline: none;
+}
+
+/* Ensure that slide 7 content is responsive and fits smaller screens */
+@media only screen and (max-width: 768px) {
+    .slide7-text-box {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .slide7-text-box a {
+        font-size: 2rem; /* Slightly reduce font size on smaller screens */
+    }
 }
