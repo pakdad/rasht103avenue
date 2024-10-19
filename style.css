@@ -330,6 +330,10 @@ a:hover {
     color: #ccc; /* Match the contact info hover color */
 }
 
+.slide7-text-box .phone-number {
+    font-size: 2.5rem; /* Size for phone number */
+}
+
 /* Ensure that slide 7 content is responsive and fits smaller screens */
 @media only screen and (max-width: 768px) {
     .slide7-text-box {
