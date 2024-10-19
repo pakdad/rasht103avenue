@@ -36,9 +36,9 @@ header {
 }
 
 .mySlides img {
-    width: 100%;
+    width: auto;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .text-box {
