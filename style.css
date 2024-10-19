@@ -305,7 +305,7 @@ a:hover {
     transform: translate(-50%, -50%); /* Perfectly center the box */
     background: rgba(0, 0, 0, 0.7); /* Darker background for better visibility */
     text-align: center; /* Center-align all text */
-    padding: 40px;
+    padding: 10px;
     max-width: 90%; /* Ensure the box fits smaller screens */
     width: auto;
 }
@@ -334,7 +334,7 @@ a:hover {
 /* Ensure that slide 7 content is responsive and fits smaller screens */
 @media only screen and (max-width: 768px) {
     .slide7-text-box {
-        padding: 20px;
+        padding: 10px;
         max-width: 100%;
     }
 
