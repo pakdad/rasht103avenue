@@ -306,7 +306,7 @@ a:hover {
     background: rgba(0, 0, 0, 0.7); /* Darker background for better visibility */
     text-align: center; /* Center-align all text */
     padding: 10px;
-    max-width: 100%; /* Ensure the box fits smaller screens */
+    max-width: 90%; /* Ensure the box fits smaller screens */
     width: auto;
 }
 
@@ -323,7 +323,7 @@ a:hover {
     font-weight: bold;
     color: inherit; /* Use inherited color, same as contact info links */
     text-decoration: none; /* Remove underline for links */
-    word-wrap: break-word; /* Ensure long text (email) breaks properly */
+    white-space: nowrap; /* Prevent the text from wrapping */
 }
 
 .slide7-text-box a:hover {
@@ -335,10 +335,12 @@ a:hover {
 @media only screen and (max-width: 768px) {
     .slide7-text-box {
         padding: 10px;
-        max-width: 100%;
+        max-width: 90%; /* Keep it flexible on smaller screens */
     }
 
     .slide7-text-box a {
         font-size: 1.5rem; /* Slightly reduce font size on smaller screens */
+        white-space: nowrap; /* Keep it from wrapping */
     }
 }
+
