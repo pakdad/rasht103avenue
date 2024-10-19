@@ -307,7 +307,6 @@ a:hover {
     text-align: center; /* Center-align all text */
     padding: 10px;
     max-width: 90%; /* Ensure the box fits smaller screens */
-    width: auto;
 }
 
 /* Styling for paragraph text */
@@ -335,7 +334,7 @@ a:hover {
 @media only screen and (max-width: 768px) {
     .slide7-text-box {
         padding: 10px;
-        max-width: 90%; /* Keep it flexible on smaller screens */
+        max-width: 80%; /* Keep it flexible on smaller screens */
     }
 
     .slide7-text-box a {
