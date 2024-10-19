@@ -17,7 +17,7 @@ body {
 /* Header & Slideshow Styling */
 header {
     position: relative;
-    height: 90vh; /* Full screen height */
+    height: 70vh; /* Full screen height */
     overflow: hidden;
     top: 0; /* Ensure header starts at the very top */
     left: 0;
@@ -238,7 +238,7 @@ footer p {
 
 @media only screen and (max-width: 768px) {
     header {
-        height: 90vh; /* Full screen height */
+        height: 70vh; /* Full screen height */
     }
 
     .slideshow-container {
