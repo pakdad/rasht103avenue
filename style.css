@@ -52,8 +52,8 @@ header {
 /* Text Box Styling */
 .text-box {
     position: absolute;
-/*     top: 50%; /* Adjust this value for more vertical margin */ */
-    left: 50%; /* Center horizontally */
+    top: 50%; /* Adjust this value for more vertical margin */
+/*     left: 50%; /* Center horizontally */ */
     transform: translate(-50%, -50%); /* Center the text box */
     width: 80%; /* Set the width to 80% of the screen */
     max-width: 80%; /* Ensure no overflow on small screens */
