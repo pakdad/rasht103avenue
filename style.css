@@ -306,55 +306,36 @@ a:hover {
     align-items: center;
     width: auto;  /* Fit to text content */
     padding: 20px;  /* Add some padding for spacing */
-    background-color: rgba(0, 0, 0, 0.5);  /* Optional: add a semi-transparent background for better readability */
-    color: #fff;  /* Ensure the text is visible */
+    background-color: rgba(0, 0, 0, 0.5);  /* Optional: semi-transparent background */
+    color: #fff;
     text-align: center;  /* Center the text */
 }
 
 .phone-number a {
-    font-size: 1.5em;  /* Increase font size if necessary */
-    color: #fff;  /* Ensure the phone number link color is white */
+    font-size: 1.5em;  /* Adjust as needed */
+    color: #fff;
     text-decoration: none;  /* Remove underline */
 }
 
-
-/* Styling for paragraph text */
 .slide7-text-box p {
-    margin: 10px 0; /* Add some spacing between each line */
-    font-size: 1.8rem; /* Base font size for text */
-    color: #fff; /* White text for visibility */
+    margin: 10px 0; /* Add spacing between lines */
+    font-size: 1.8rem; /* Adjust font size */
 }
 
-/* Styling for hyperlinks (matching contact info styles) */
 .slide7-text-box a {
-    font-size: 2rem; /* Increase font size for the phone number and email */
+    font-size: 2rem;
     font-weight: bold;
-    color: inherit; /* Use inherited color, same as contact info links */
-    text-decoration: none; /* Remove underline for links */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    color: inherit;
+    text-decoration: none;
 }
 
-.slide7-text-box a:hover {
-    text-decoration: underline; /* Add underline on hover */
-    color: #ccc; /* Match the contact info hover color */
-}
-
-.slide7-text-box .phone-number {
-    font-size: 2.5rem; /* Size for phone number */
-}
-
-/* Ensure that slide 7 content is responsive and fits smaller screens */
 @media only screen and (max-width: 768px) {
     .slide7-text-box {
         padding: 10px;
-        max-width: 80%; /* Keep it flexible on smaller screens */
-    }
-
-    .slide7-text-box a {
-        font-size: 1.5rem; /* Slightly reduce font size on smaller screens */
-        white-space: nowrap; /* Keep it from wrapping */
+        max-width: 80%; /* Keep flexible on smaller screens */
     }
 }
+
 
 /* Change font size for slide 1 */
 .mySlides:nth-child(1) .text-box h1 {
