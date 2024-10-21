@@ -298,16 +298,25 @@ a:hover {
     animation: none;
 }
 
-/* Specific styles for Slide 7 */
+/* Adjust slide 7 text box styling */
 .slide7-text-box {
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Perfectly center the box */
-    background: rgba(0, 0, 0, 0.7); /* Darker background for better visibility */
-    text-align: center; /* Center-align all text */
-    padding: 10px;
-    max-width: 90%; /* Ensure the box fits smaller screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;  /* Fit to text content */
+    padding: 20px;  /* Add some padding for spacing */
+    background-color: rgba(0, 0, 0, 0.5);  /* Optional: add a semi-transparent background for better readability */
+    color: #fff;  /* Ensure the text is visible */
+    text-align: center;  /* Center the text */
 }
+
+.phone-number a {
+    font-size: 1.5em;  /* Increase font size if necessary */
+    color: #fff;  /* Ensure the phone number link color is white */
+    text-decoration: none;  /* Remove underline */
+}
+
 
 /* Styling for paragraph text */
 .slide7-text-box p {
