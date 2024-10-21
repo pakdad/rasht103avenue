@@ -64,8 +64,9 @@ header {
 
 .text-box {
     position: absolute;
-    top: 1%;
-    right: 1%;
+    top: 5%; /* Adjust this to bring the text box closer or further from the top */
+    left: 50%; /* Center the text box horizontally */
+    transform: translateX(-50%); /* Ensure the text box is exactly centered */
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -73,8 +74,9 @@ header {
     max-width: 400px;
     animation: fadeInDown 1.5s;
     direction: rtl;
-    text-align: right;
+    text-align: center; /* Center text inside the text box */
 }
+
 
 .text-box h1 {
     font-size: 1.3rem;
