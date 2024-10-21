@@ -9,11 +9,14 @@ function showSlides() {
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
     }
+    
     slideIndex++;
     
-    // Stop the automatic slideshow at the end of the slides
+    // Stop the automatic slideshow at the last slide and freeze
     if (slideIndex > slides.length) {
-        clearTimeout(slideInterval);
+        slideIndex = slides.length;  // Freeze on the last slide
+        slides[slideIndex - 1].style.display = "block"; // Show the last slide
+        clearTimeout(slideInterval);  // Stop the auto change
         return;  // Exit the function to stop the loop
     }
     
