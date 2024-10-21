@@ -232,7 +232,7 @@ footer p {
 .socials a {
     color: #fff;
     margin: 0 10px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .socials a:hover {
