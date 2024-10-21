@@ -127,7 +127,7 @@ header {
 }
 
 .mySlides:nth-child(2) .text-box h1 {
-    font-size: 1.8rem; /* Adjust this size as needed */
+    font-size: 1.7rem; /* Adjust this size as needed */
 }
 
 .mySlides:nth-child(3) .text-box h1 {
@@ -135,15 +135,15 @@ header {
 }
 
 .mySlides:nth-child(4) .text-box h1 {
-    font-size: 1.7rem; /* Adjust this size as needed */
+    font-size: 1.6rem; /* Adjust this size as needed */
 }
 
 .mySlides:nth-child(5) .text-box h1 {
-    font-size: 1.8rem; /* Adjust this size as needed */
+    font-size: 1.6rem; /* Adjust this size as needed */
 }
 
 .mySlides:nth-child(6) .text-box h1 {
-    font-size: 1.6rem; /* Adjust this size as needed */
+    font-size: 1.7rem; /* Adjust this size as needed */
 }
 
 /* Specific Styling for Slide 7 */
