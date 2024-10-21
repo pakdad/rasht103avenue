@@ -347,3 +347,42 @@ a:hover {
     }
 }
 
+/* Change font size for slide 1 */
+.mySlides:nth-child(1) .text-box h1 {
+    font-size: 2rem; /* Adjust this size as needed */
+}
+
+/* Change font size for slide 2 */
+.mySlides:nth-child(2) .text-box h1 {
+    font-size: 1.8rem; /* Adjust this size as needed */
+}
+
+/* Change font size for slide 3 */
+.mySlides:nth-child(3) .text-box h1 {
+    font-size: 1.8rem; /* Adjust this size as needed */
+}
+
+/* Change font size for slide 4 */
+.mySlides:nth-child(4) .text-box h1 {
+    font-size: 1.7rem; /* Adjust this size as needed */
+}
+
+/* Change font size for slide 5 */
+.mySlides:nth-child(5) .text-box h1 {
+    font-size: 1.8rem; /* Adjust this size as needed */
+}
+
+/* Change font size for slide 6 */
+.mySlides:nth-child(6) .text-box h1 {
+    font-size: 1.6rem; /* Adjust this size as needed */
+}
+
+/* Change font size for slide 7 */
+.mySlides:nth-child(7) .slide7-text-box p {
+    font-size: 2.5rem; /* Adjust this size for paragraphs */
+}
+
+.mySlides:nth-child(7) .slide7-text-box a {
+    font-size: 3rem; /* Adjust this size for the phone number link */
+}
+
