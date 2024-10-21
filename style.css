@@ -64,18 +64,20 @@ header {
 
 .text-box {
     position: absolute;
-    top: 5%; /* Adjust this to bring the text box closer or further from the top */
-    left: 50%; /* Center the text box horizontally */
-    transform: translateX(-50%); /* Ensure the text box is exactly centered */
+    top: 5%; /* Keep it closer to the top */
+    left: 50%; /* Horizontally center the text box */
+    transform: translate(-50%, 0); /* Center horizontally without affecting vertical alignment */
+    width: 80%; /* Occupies 80% of the screen width, leaving 10% margin on each side */
+    margin: 0 10%; /* Ensures 10% margin on each side */
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 8px;
-    max-width: 400px;
     animation: fadeInDown 1.5s;
     direction: rtl;
-    text-align: center; /* Center text inside the text box */
+    text-align: center;
 }
+
 
 
 .text-box h1 {
@@ -122,11 +124,11 @@ header {
 
 @keyframes fadeInDown {
     0% {
-        transform: translateY(-100%);
+        transform: translate(-50%, -100%); /* Start from off-screen, top */
         opacity: 0;
     }
     100% {
-        transform: translateY(0);
+        transform: translate(-50%, 0); /* End in the correct centered position */
         opacity: 1;
     }
 }
