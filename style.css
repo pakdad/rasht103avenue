@@ -52,13 +52,11 @@ header {
 /* Text Box Styling */
 .text-box {
     position: absolute;
-    top: 5%; /* Adjust this value as needed */
-    left: 10%
-    transform: translate(-50%, 0); /* Center the text box horizontally */
+    top: 10%; /* Adjust this value for more vertical margin */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the text box */
     width: 80%; /* Set the width to 80% of the screen */
     max-width: 80%; /* Ensure no overflow on small screens */
-    margin-left: 10%; /* 10% margin from left */
-    margin-right: 10%; /* 10% margin from right */
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -67,6 +65,7 @@ header {
     direction: rtl;
     text-align: center;
 }
+
 
 .text-box h1 {
     font-size: 1.3rem;
