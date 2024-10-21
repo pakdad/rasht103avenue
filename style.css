@@ -260,7 +260,7 @@ footer p {
     osition: absolute;
     top: 50%; /* Adjust this value as needed */
     left: 50%; /* Start centering horizontally */
-    transform: translate(-50%, 0); /* Center the text box horizontally */
+    transform: translate(-40%, 0); /* Center the text box horizontally */
     width: 80%; /* Set the width to 80% of the screen */
     max-width: 80%; /* Ensure no overflow on small screens */
     margin-left: 10%; /* 10% margin from left */
