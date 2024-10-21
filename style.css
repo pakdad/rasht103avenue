@@ -257,7 +257,7 @@ footer p {
 
 /* Adjust slide 7 text box styling */
 .slide7-text-box {
-    osition: absolute;
+    position: absolute;
     top: 40%; /* Adjust this value as needed */
     left: 50%; /* Start centering horizontally */
     transform: translate(-50%, 0); /* Center the text box horizontally */
