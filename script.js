@@ -10,9 +10,15 @@ function showSlides() {
         slides[i].style.display = "none";  
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
+    
+    // Stop the automatic slideshow at the end of the slides
+    if (slideIndex > slides.length) {
+        clearTimeout(slideInterval);
+        return;  // Exit the function to stop the loop
+    }
+    
     slides[slideIndex - 1].style.display = "block";  
-    slideInterval = setTimeout(showSlides, 5000); // Automatically change every 3 seconds
+    slideInterval = setTimeout(showSlides, 5000); // Automatically change every 5 seconds
 }
 
 // Function to handle manual slide navigation
@@ -20,10 +26,12 @@ function plusSlides(n) {
     clearTimeout(slideInterval);  // Stop automatic slide change
     slideIndex += n;
     
-    if (slideIndex > document.getElementsByClassName("mySlides").length) {
-        slideIndex = 1;
+    let slides = document.getElementsByClassName("mySlides");
+    
+    if (slideIndex > slides.length) {
+        slideIndex = slides.length; // Stay on the last slide
     } else if (slideIndex < 1) {
-        slideIndex = document.getElementsByClassName("mySlides").length;
+        slideIndex = 1; // Stay on the first slide
     }
     
     showCurrentSlide();
@@ -36,5 +44,9 @@ function showCurrentSlide() {
         slides[i].style.display = "none";  
     }
     slides[slideIndex - 1].style.display = "block";
-    slideInterval = setTimeout(showSlides, 5000); // Restart automatic slide after 3 seconds
+    
+    // Restart automatic slide only if not at the last slide
+    if (slideIndex < slides.length) {
+        slideInterval = setTimeout(showSlides, 5000); // Restart automatic slide after 5 seconds
+    }
 }
