@@ -275,7 +275,7 @@ footer p {
 .phone-number a {
     font-size: 1.5em;  /* Adjust as needed */
     color: #fff;
-    text-decoration: none;  /* Remove underline */
+    text-decoration: underline;  /* Remove underline */
 }
 
 .slide7-text-box p {
