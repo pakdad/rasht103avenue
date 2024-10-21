@@ -258,15 +258,21 @@ footer p {
 
 /* Adjust slide 7 text box styling */
 .slide7-text-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;  /* Fit to text content */
-    padding: 20px;  /* Add some padding for spacing */
-    background-color: rgba(0, 0, 0, 0.5);  /* Optional: semi-transparent background */
+    osition: absolute;
+    top: 50%; /* Adjust this value as needed */
+    left: 50%; /* Start centering horizontally */
+    transform: translate(-50%, 0); /* Center the text box horizontally */
+    width: 80%; /* Set the width to 80% of the screen */
+    max-width: 80%; /* Ensure no overflow on small screens */
+    margin-left: 10%; /* 10% margin from left */
+    margin-right: 10%; /* 10% margin from right */
     color: #fff;
-    text-align: center;  /* Center the text */
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    animation: fadeInDown 1.5s;
+    direction: rtl;
+    text-align: center;
 }
 
 .phone-number a {
